@@ -1,0 +1,16 @@
+Version 3.1
+# namespace test
+# first-file
+* i test test-set int-index N 1 int-bin N
+* i test test-set string-index N 1 string-bin S
+* u L test.lua 27 -- just an empty Lua file
+
+
++ n test
++ d q+LsiGs1gD9duJDbzQSXytajtCY=
++ s test-set
++ g 1
++ t 0
++ b 2
+- I int-bin 12345
+- S string-bin 5 abcde
